@@ -1,0 +1,51 @@
+/*!
+Theme Name: _s
+Theme URI: https://underscores.me/
+Author: Automattic
+Author URI: https://automattic.com/
+Description: Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Version: 1.0.0
+Text Domain: _s
+*/
+
+// 1. Configuration and helpers.
+@import
+	'abstracts/variables',
+	'abstracts/functions',
+	'abstracts/mixins',
+	'abstracts/placeholders';
+
+// 2. Vendors.
+@import
+	'vendors/reset';
+
+// 3. Base stuff.
+@import
+	'base/accessibility',
+	'base/alignments',
+	'base/body',
+	'base/typography',
+	'base/links',
+	'base/lists',
+	'base/tables',
+	'base/infinite-scroll';
+
+// 4. Layout-related sections.
+@import
+	'layout/header',
+	'layout/menus',
+	'layout/footer';
+
+// 5. Components.
+@import
+	'components/fields',
+	'components/buttons',
+	'components/posts-and-pages',
+	'components/comments',
+	'components/widgets',
+	'components/media',
+	'components/captions';
+
+// 6. Page-specific styles.
+
+// 7. Themes.
