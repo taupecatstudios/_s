@@ -195,6 +195,9 @@ if ( WP_DEBUG ) {
 	}
 }
 
+/** Miscellaneous */
+define( 'DISALLOW_FILE_EDIT', true );
+
 /* That's all, stop editing! Happy Pressing. */
 
 /** Absolute path to the WordPress directory. */
