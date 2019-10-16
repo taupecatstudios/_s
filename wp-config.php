@@ -15,7 +15,7 @@
  * keep your config separate, we recommend using a 'wp-config-local.php' file,
  * which you should also make sure you .gitignore.
  */
-if ( ( file_exists( __DIR__ . '/wp-config-local.php' ) ) && ( ! isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ) {
+if ( ( file_exists( __DIR__ . '/wp-config-local.php' ) ) && ( ! isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ) ) {
 
 	require_once( __DIR__ . '/wp-config-local.php' );
 
