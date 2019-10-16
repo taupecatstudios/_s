@@ -187,6 +187,7 @@ if ( WP_DEBUG ) {
 
 	define( 'WP_DEBUG_DISPLAY', false );
 	define( 'WP_DEBUG_LOG', true );
+	define( 'SAVEQUERIES', true );
 
 	/** Jetpack should be in debug mode any time WP_DEBUG is true. */
 	if ( ! defined( 'JETPACK_DEV_DEBUG' ) ) {
