@@ -99,7 +99,9 @@ if ( ( file_exists( __DIR__ . '/wp-config-local.php' ) ) && ( ! isset( $_ENV['PA
 			}
 
 			define( 'WP_HOME', $base_url );
-			define( 'WP_SITEURL', WP_HOME );
+			define( 'WP_SITEURL', WP_HOME . '/wp' );
+			define( 'WP_CONTENT_DIR', __DIR__ . '/wp-content' );
+			define( 'WP_CONTENT_URL', WP_HOME . '/wp-content' );
 		}
 
 		/** Don't show deprecations; useful under PHP 5.5 */

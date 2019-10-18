@@ -13,9 +13,9 @@ $table_prefix = '##TABLE_PREFIX##';
 $wp_url       = $scheme . $hostname;
 
 define( 'WP_HOME',        $wp_url );
-define( 'WP_SITEURL',     WP_HOME );
+define( 'WP_SITEURL',     WP_HOME . '/wp' );
 define( 'WP_CONTENT_DIR', __DIR__ . '/wp-content' );
-define( 'WP_CONTENT_URL', $wp_url . '/wp-content' );
+define( 'WP_CONTENT_URL', WP_HOME . '/wp-content' );
 define( 'DB_NAME',        $db_name );
 define( 'DB_USER',        $db_user );
 define( 'DB_PASSWORD',    $db_password );
