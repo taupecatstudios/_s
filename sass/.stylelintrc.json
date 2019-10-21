@@ -6,7 +6,7 @@
   "rules": {
     "at-rule-empty-line-before": null,
     "at-rule-no-unknown": [ true, {
-      "ignoreAtRules": [ "function", "return", "include", "extend", "mixin", "if", "else", "warn", "for" ]
+      "ignoreAtRules": [ "function", "return", "include", "extend", "mixin", "if", "else", "warn", "for", "each" ]
     }],
     "color-named": "never",
     "comment-empty-line-before": null,
